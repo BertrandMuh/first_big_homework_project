@@ -95,7 +95,7 @@ const subtractHitpoints = (userName, point) => {
 }
 
 subtractHitpoints('timothy', 5);
-console.log(party)
+//console.log(party)
 //Prompt 3: Sarah's tiger has been turned into a jellyfish by a wizard, please change it
 const changeCompanionType = (userName, companionType) => {
     party.forEach(element => {
@@ -106,7 +106,7 @@ const changeCompanionType = (userName, companionType) => {
 }
 
 changeCompanionType('sarah', 'jellyfish')
-console.log(party)
+//console.log(party)
 // // Prompt 4: Timothy drank this potion. Raise his hitpoints by 20 and remove "potion" from his belongings.
 const healing = (userName) => {
     party.forEach(element => {
@@ -123,7 +123,7 @@ const healing = (userName) => {
 }
 
 healing('timothy');
-console.log(party);
+//console.log(party);
 // Prompt 5: Timothy got hungry and stole Joline's bread. Take it out of her belongings and put it  into Timothy's belongings.
 const steal = (userName1, userName2, item) => {
     for (i = 0; i < party.length; i++) {
@@ -146,7 +146,7 @@ const steal = (userName1, userName2, item) => {
     }
 }
 steal('timothy', 'joline', 'bread');
-console.log(party)
+//console.log(party)
 
 // Prompt 6: Joline got upset and left the party. Take her out of the array.
 const removePlayer = (player) => {
@@ -158,7 +158,7 @@ const removePlayer = (player) => {
 }
 
 removePlayer('joline');
-console.log(party)
+//console.log(party)
 // Prompt 7: Timothy and Sarah have been recruiting. Add a new adventurer to the party. (new adventurer is parameter)
 const aventurer = (newAdventurer) => {
     party.push(newAdventurer)
@@ -172,7 +172,7 @@ aventurer({
         type: 'dog'
     }
 });
-console.log(party)
+//console.log(party)
 // Prompt 8: The party has been doing well! They found 200 gold. Create a new property called gold and split the gold evenly between everyone. (amount of gold is parameter)
 const goldFound = (gold) => {
     let share = gold / party.length;
@@ -181,7 +181,7 @@ const goldFound = (gold) => {
     })
 }
 goldFound(200);
-console.log(party)
+//console.log(party)
 
 // Prompt 9: Sarah is tired of taking care of a jellyfish. Subtract some gold from her and change her companion to a bear.
 const changeCompanion = (aventurer, companionName, companionType, price) => {
@@ -194,7 +194,7 @@ const changeCompanion = (aventurer, companionName, companionType, price) => {
     })
 }
 changeCompanion('sarah', 'Booboo', 'Bear', 2);
-console.log(party)
+//console.log(party)
 // Prompt 10: Timothy’s sword has gotten old. Change it to “Rusty Sword"
 const rustySword = (aventurer) => {
     party.forEach(el => {
@@ -208,7 +208,7 @@ const rustySword = (aventurer) => {
     })
 }
 rustySword('timothy');
-console.log(party)
+//console.log(party)
 // Prompt 11: Write a function called setLeader that takes a name as a parameter. The member with that name should have a new property leader: true while the other members have leader: false.
 const setLeader = (userName) => {
     party.forEach(el => {
