@@ -1,46 +1,4 @@
 
-// PSEUDOCODE
-// // 1. create a function that takes name and dish
-// const compare = (name, dish) => name[0].toUpperCase() == dish[0].toUpperCase() && name.at(-1) == dish.at(-1);
-
-
-// let result = compare('beard', 'Bird');
-// console.log(result);
-
-// // // Method to take one item out of an array
-// // slice(), pop(), shift()
-// // // Method to capitalize a string
-// // str.charAt(0).toUpperCase() + str.slice(1);
-// // // Method to make an array from a string, with each character being an element
-// // Array.from()
-
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
-
-
-// // Method to get the first character in a string
-// Array.at(0)  Array.charAt(0);
-// // Method to organize an array from least to greatest
-// Array.sort()
-// // Method to flip array
-// Array.reverse()
-// // Method to add two arrays together
-// str1.concat(str2);
-// // Method to check if an object has a property
-// hasOwnProperty()
-// // BOUNUS:
-// // I want to see if “hello” and “Hello” are the same
-// ==
-// // I want to see what properties an object has (not the values)
-
-// // I want to round a number up
-// Math.ceil();
-
-// // Bonus 2:
-// // 5. I want to generate a completely random number
-// Math.random()
-// // 6. I want to randomize my array
-
-// // 7. I want to check if two arrays are the same
 
 let party = [
     {
